@@ -1,7 +1,9 @@
 # jumper
+Simple Windows cli tool to elevate the execution of the given command.
 
-```
-jumper.exe %application% %arguments%
-jumper.exe "C:\WINDOWS\system32\cmd.exe" /k amiadministrator
-> starts the specified application as admin, with the specified arguments
+# Usage
+```powershell
+# jumper.exe <application> <...arguments>
+jumper.exe myelevatedprogram.exe myarg1 myarg2
+# starts myelevatedprogram.exe as admin, with the specified arguments
 ```
